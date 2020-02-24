@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step4_solution;
+package com.example.android.lifecycles.step4_LifeCycleEvents;
 
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleObserver;

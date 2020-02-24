@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step5_solution;
+package com.example.android.lifecycles.step5_Fragments;
 
 
 import androidx.lifecycle.Observer;
@@ -32,7 +32,6 @@ import android.view.ViewGroup;
 import android.widget.SeekBar;
 
 import com.example.android.codelabs.lifecycle.R;
-import com.example.android.lifecycles.step5.SeekBarViewModel;
 
 /**
  * Shows a SeekBar that is synced with a value in a ViewModel.

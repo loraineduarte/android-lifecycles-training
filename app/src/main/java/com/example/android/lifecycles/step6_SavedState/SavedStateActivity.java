@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step6;
+package com.example.android.lifecycles.step6_SavedState;
 
 import android.os.Bundle;
 import android.view.View;
@@ -22,11 +22,11 @@ import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.android.codelabs.lifecycle.R;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-
-import com.example.android.codelabs.lifecycle.R;
 
 /**
  * Shows a simple form with a button and displays the value of a property in a ViewModel.
@@ -49,6 +49,7 @@ public class SavedStateActivity extends AppCompatActivity {
             public void onChanged(String savedString) {
                 ((TextView)findViewById(R.id.saved_vm_tv))
                         .setText(getString(R.string.saved_in_vm, savedString));
+
             }
         });
 

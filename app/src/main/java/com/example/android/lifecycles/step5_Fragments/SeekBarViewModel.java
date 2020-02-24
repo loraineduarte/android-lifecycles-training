@@ -14,24 +14,15 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step6;
+package com.example.android.lifecycles.step5_Fragments;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SavedStateViewModel extends ViewModel {
+/**
+ * A ViewModel used in step 5.
+ */
+public class SeekBarViewModel extends ViewModel {
 
-    // TODO: Create constructor and use the LiveData from SavedStateHandle.
-
-    private MutableLiveData<String> name = new MutableLiveData<>();
-
-    // Expose an immutable LiveData
-    LiveData<String> getName() {
-        return name;
-    }
-
-    void saveNewName(String newName) {
-        name.setValue(newName);
-    }
+    public MutableLiveData<Integer> seekbarValue = new MutableLiveData<>();
 }

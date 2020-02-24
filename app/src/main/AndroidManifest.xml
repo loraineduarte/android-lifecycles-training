@@ -59,7 +59,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.lifecycles.step4_solution.LocationActivity"
+            android:name="com.example.android.lifecycles.step4_LifeCycleEvents.LocationActivity"
             android:label="LC Step4">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -80,7 +80,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.lifecycles.step5_solution.Activity_step5"
+            android:name="com.example.android.lifecycles.step5_Fragments.Activity_step5"
             android:label="LC Step5 Sol">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -94,7 +94,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.lifecycles.step6_solution.SavedStateActivity"
+            android:name="com.example.android.lifecycles.step6_SavedState.SavedStateActivity"
             android:label="LC Step6 Sol">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

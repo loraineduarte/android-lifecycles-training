@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step6_solution;
+package com.example.android.lifecycles.step6_SavedState;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.SavedStateHandle;
