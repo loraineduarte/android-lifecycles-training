@@ -38,7 +38,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.lifecycles.step2.ChronoActivity2"
+            android:name="com.example.android.lifecycles.step2_ViewModel.ChronoActivity2"
             android:label="LC Step2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +52,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.lifecycles.step3_solution.ChronoActivity3"
+            android:name="com.example.android.lifecycles.step3_LiveData.ChronoActivity3"
             android:label="LC Step3 Sol">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

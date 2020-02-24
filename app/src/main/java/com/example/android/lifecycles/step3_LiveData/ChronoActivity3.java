@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step3;
+package com.example.android.lifecycles.step3_LiveData;
 
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -25,7 +25,6 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.example.android.codelabs.lifecycle.R;
-
 
 public class ChronoActivity3 extends AppCompatActivity {
 
@@ -53,6 +52,6 @@ public class ChronoActivity3 extends AppCompatActivity {
             }
         };
 
-        //TODO: observe the ViewModel's elapsed time
+        mLiveDataTimerViewModel.getElapsedTime().observe(this, elapsedTimeObserver);
     }
 }

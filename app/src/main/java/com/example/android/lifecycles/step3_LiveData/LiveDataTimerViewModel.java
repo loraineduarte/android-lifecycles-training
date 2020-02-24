@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step3_solution;
+package com.example.android.lifecycles.step3_LiveData;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

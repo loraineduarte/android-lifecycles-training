@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.lifecycles.step2;
+package com.example.android.lifecycles.step2_ViewModel;
 
 import androidx.annotation.Nullable;
 
